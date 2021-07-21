@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!-- Codingfire - youtube.com/codingfire -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Working Youtube Video Search | No Javascript</title>
+</head>
+<body>
+  <!-- Now the main part starts -->
+  <!-- url: https://www.youtube.com/results (this is the url we need to use) search_query (and this is the name for example in google search we have "q=" but in youtube we have search_query="") -->
+  <form action="https://www.youtube.com/results" method="GET" class="search_container">
+    <div class="searchBox-wrapper">
+      <!-- after this we need to use GET method to get it -->
+      <!-- in input type the name attribute to me = search_query also put value="" -->
+      <input type="text" name="search_query" value="" placeholder="Search Anything..." class="searchBox" >
+      <i class="fas fa-search"></i>
+    </div>
+  </form>
+</body>
+</html>
